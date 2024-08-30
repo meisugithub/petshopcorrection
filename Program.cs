@@ -84,7 +84,7 @@ namespace PetStore
                 }
                 else if (userInput == "0")
                 {
-                    productLogic.GetOnlyInStockProducts;
+                    productLogic.GetOnlyInStockProducts();
                  }
 
                 else if (userInput.ToLower() == "exit")
